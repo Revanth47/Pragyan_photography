@@ -164,9 +164,10 @@ ul.nostyle i {
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
-  padding: 22px 15px 21px;
+  margin: 25px;
+  font-size: 28px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   #main-menu.navbar-default {
     background: rgba(255, 255, 255, 0.9);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -226,7 +227,6 @@ ul.nostyle i {
 #main-slider .item {
   height: 558px;
   background-repeat: no-repeat;
-  background-position: 50% 0;
   background-size: cover;
 }
 #main-slider .slider-inner {
@@ -927,7 +927,7 @@ ul.nostyle i {
   display: inline-block;
   margin: 0 7.5px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   #footer .social-icons {
     float: right;
   }
